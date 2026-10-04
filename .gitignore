@@ -1,0 +1,37 @@
+# 編譯產物
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.dll
+*.so
+*.pdb
+*.ilk
+
+# 各專案的執行檔 (Linux / macOS 無副檔名)
+00_array_queue/array_queue_demo
+01_queue_basic/queue_demo
+02_ring_buffer/ring_demo
+
+# 建置資料夾
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# IDE / 編輯器
+.vscode/
+.idea/
+*.swp
+*~
+
+# 系統檔
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Claude Code
+.claude/
